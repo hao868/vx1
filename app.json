@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/show/show",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eeee00",
+    "navigationBarTitleText": "我就试试",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/imgs/down.png",
+      "selectedIconPath": "/imgs/right.png"
+    },{
+      "pagePath": "pages/show/show",
+      "text": "列表",
+      "iconPath": "/imgs/down.png",
+      "selectedIconPath": "/imgs/right.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "我",
+      "iconPath": "/imgs/down.png",
+      "selectedIconPath": "/imgs/right.png"
+    }]
+  }
+}

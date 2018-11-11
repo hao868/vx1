@@ -1,0 +1,28 @@
+<!--index.wxml-->
+
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view>1111</view>
+
+<button type='primary' class='btn' hover-class='btnhover' bindtap='hhh'>点我</button>
+<button type='default' class='btn'>点我</button>
+<button type='warn' class='btn'>点我</button>
+
+<!-- <block wx:for="{{[11, 22, 33]}}">
+  <view> {{index}}:{{item}} </view>
+</block> -->
+
+<switch wx:for="{{objectArray}}" wx:key="unique" style="display: block;"> {{item.id}} </switch>
+
+<switch wx:for="{{numberArray}}" wx:key="*this" style="display: block;"> {{item}} </switch>
+
+<!-- <view wx:for="abcde">{{item}}</view> -->
+
+

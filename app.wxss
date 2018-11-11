@@ -1,0 +1,13 @@
+/**app.wxss**/
+.container {
+  width: 96%;
+  display: flex;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+} 
+page{
+  font-size: 28rpx;
+  background: #eee;
+}
